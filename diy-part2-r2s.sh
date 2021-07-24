@@ -19,4 +19,4 @@ sed -i "s/\(DISTRIB_REVISION='\(\w\|\.\)\+\)'/\1 Compiled by xiaofei'/" package/
 
 
 # 5.4->5/10
-#sed -i 's/5.4/5.10/g' target/linux/rockchip/Makefile
+sed -i 's/5.4/5.10/g' target/linux/rockchip/Makefile
