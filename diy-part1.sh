@@ -20,4 +20,4 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-app-serverchan
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
 git clone https://github.com/project-openwrt/openwrt-filebrowser.git package/lean/openwrt-filebrowser
-#git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
+git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
