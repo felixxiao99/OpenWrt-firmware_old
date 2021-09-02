@@ -44,11 +44,6 @@ jobs:
         ref: master
         fetch-depth: 0
 
-    - name: cache
-      uses: klever1988/cachewrtbuild@main
-      with:
-        ccache: 'true'
-
     - name: Initialization environment
       env:
         DEBIAN_FRONTEND: noninteractive
@@ -68,6 +63,11 @@ jobs:
         df -hT $PWD
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
+        
+    - name: cache
+      uses: klever1988/cachewrtbuild@main
+      with:
+        ccache: 'true'
 
     - name: Load custom feeds
       run: |
