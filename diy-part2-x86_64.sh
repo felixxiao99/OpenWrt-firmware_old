@@ -12,7 +12,7 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/10.5.5.1/g' package/base-files/files/bin/config_generate
-sed -i 's/192.168/10.5/g' package/base-files/files/bin/config_generate
+# sed -i 's/192.168/10.5/g' package/base-files/files/bin/config_generate
 
 # Modify version info
 sed -i "s/\(DISTRIB_REVISION='\(\w\|\.\)\+\)'/\1 Compiled by xiaofei'/" package/lean/default-settings/files/zzz-default-settings
