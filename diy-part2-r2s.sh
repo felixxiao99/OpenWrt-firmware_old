@@ -22,4 +22,4 @@ sed -i "s/ucidef_set_interfaces_lan_wan 'eth1' 'eth0'/ucidef_set_interfaces_lan_
 
 
 # 5.4->5/10
-#sed -i 's/5.4/5.10/g' target/linux/rockchip/Makefile
+#sed -i 's/5.10/5.4/g' target/linux/x86/Makefile
