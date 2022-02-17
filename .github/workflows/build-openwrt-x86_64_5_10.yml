@@ -95,6 +95,9 @@ jobs:
         cd openwrt
         make defconfig
         make download -j8
+        
+        sed -i 's/replace_music_source.rmempty/-- replace_music_source.rmempty/g' package/lean/luci-app-unblockmusic/luasrc/model/cbi/unblockmusic/unblockmusic.lua
+        
         find dl -size -1024c -exec ls -l {} \;
         find dl -size -1024c -exec rm -f {} \;
 
