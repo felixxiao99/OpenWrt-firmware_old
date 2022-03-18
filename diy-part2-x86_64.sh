@@ -21,4 +21,4 @@ sed -i "s/\(DISTRIB_REVISION='\(\w\|\.\)\+\)'/\1 Compiled by xiaofei'/" package/
 sed -i 's/replace_music_source.rmempty/-- replace_music_source.rmempty/g' feeds/luci/applications/luci-app-unblockmusic/luasrc/model/cbi/unblockmusic/unblockmusic.lua
 
 #5.10->5.4
-#sed -i 's/5.15/5.4/g' target/linux/x86/Makefile
+sed -i 's/5.15/5.4/g' target/linux/x86/Makefile
