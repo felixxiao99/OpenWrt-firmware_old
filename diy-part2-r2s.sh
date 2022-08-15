@@ -23,5 +23,5 @@ sed -i 's/replace_music_source.rmempty/-- replace_music_source.rmempty/g' feeds/
 #sed -i "s/ucidef_set_interfaces_lan_wan 'eth1' 'eth0'/ucidef_set_interfaces_lan_wan 'eth0' 'eth1'/g" target/linux/rockchip/armv8/base-files/etc/board.d/02_network
 
 
-# 5.4->5/10
+# 5.19->5/15
 sed -i 's/5.19/5.15/g' target/linux/x86/Makefile
