@@ -24,4 +24,4 @@ sed -i 's/replace_music_source.rmempty/-- replace_music_source.rmempty/g' feeds/
 
 
 # 5.19->5/15
-sed -i 's/5.19/5.15/g' target/linux/x86/Makefile
+sed -i 's/5.19/5.15/g' target/linux/rockchip/Makefile
