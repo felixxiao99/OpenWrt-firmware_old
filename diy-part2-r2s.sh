@@ -25,4 +25,4 @@ sed -i 's/replace_music_source.rmempty/-- replace_music_source.rmempty/g' feeds/
 
 # 5.19->5/15
 sed -i 's/KERNEL_PATCHVER=5.19/KERNEL_PATCHVER=5.15/g' target/linux/rockchip/Makefile
-sed -ri '/^\s*TARGET_DEVICES\s.+?(fastrhino_r66s|firefly_station-p2)/d' target/linux/rockchip/image/armv8.mk
+sed -ri '/^\s*TARGET_DEVICES\s.+?(fastrhino_r66s|firefly_station-p2|friendlyelec_nanopi-r5s)/d'  target/linux/rockchip/image/armv8.mk
